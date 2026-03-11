@@ -11,6 +11,7 @@ export default {
     outDir: "../docs", // Output in the docs/ folder
     emptyOutDir: true, // Empty the folder first
     sourcemap: true, // Add sourcemap
+    base: "/Haunted_House",
   },
   plugins: [
     restart({ restart: ["../static/**"] }), // Restart server on static file change
