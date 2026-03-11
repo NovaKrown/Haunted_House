@@ -1,2 +1,3 @@
 # Haunted_House
-ThreeJS Journey Hounted House Project
+
+ThreeJS Journey Haunted House Project
