@@ -18,8 +18,6 @@ const scene = new THREE.Scene();
  * Textures
  */
 const textureLoader = new THREE.TextureLoader();
-const grass = await textureLoader.loadAsync("/floor/coast_sand_rocks_02_1k/coast_sand_rocks_02_diff_1k.jpg");
-grass.colorSpace = THREE.SRGBColorSpace;
 
 /**
  * House
