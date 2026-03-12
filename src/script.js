@@ -18,7 +18,7 @@ const scene = new THREE.Scene();
  * Textures
  */
 const textureLoader = new THREE.TextureLoader();
-const groundAlpha = await textureLoader.loadAsync("/floor/alpha.jpg");
+const groundAlpha = await textureLoader.loadAsync("./floor/alpha.jpg");
 
 /**
  * House
